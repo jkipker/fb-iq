@@ -1,0 +1,17 @@
+{
+  "name": "fbiq-showcase",
+  "homepage": "https://github.com/jkipker/fb-iq",
+  "authors": [
+    "jkipker <jkipker@gmail.com>"
+  ],
+  "description": "showcase project for Traina",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
