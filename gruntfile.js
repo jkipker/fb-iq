@@ -41,6 +41,17 @@ module.exports = function (grunt) {
             },
         },
 
+        uglify: {
+            options: {
+                manage: false
+            },
+            my_target: {
+                files: {
+                    'scripts/app.min.js' : ['js/custom-scripts.js']
+                }
+            }
+        },
+
         // Compile SASS files into minified CSS.
         sass: {
             options: {
@@ -73,8 +84,15 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-uglify');    
 
     // Establish tasks we can run from the terminal.
     grunt.registerTask('build', ['sass', 'copy']);
     grunt.registerTask('default', ['build', 'watch']);
 }
+
+
+
+
+
+
