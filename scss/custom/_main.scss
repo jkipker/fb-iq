@@ -1,4 +1,68 @@
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+
 }
+
+nav{
+  min-height: 55px;
+  padding-top: 15px;
+
+  .navbar-header{
+    float: left;
+    max-width: 164px;
+    img{
+      width: 100%;
+    }
+  }
+  .navbar-brand{
+    padding-top: 11px;
+  }
+}
+
+.rotator{
+  .section{
+    background: #e9e9e9 url("../images/header/header-1.jpg") no-repeat top; 
+    background-size: 100%;
+  }
+}
+
+.section{
+  padding: 0;
+  min-height: 750px;
+
+  .container{
+    padding-top: 250px;
+    p{
+      color: white;
+    }
+  }
+}
+
+.positioning{
+  background-color: #607D8B;
+}
+
+.essentials{
+  background-color: #B0377B;
+}
+
+.imagery{
+  background-color: #FB724B;
+}
+
+.elements{
+  background-color: #4267B2;
+}
+
+.applications{
+  background-color: #F0546A;
+}
+
+.container{
+  h2{
+    font-size: 72px;
+    color: white;
+    padding-bottom: 80px;
+  }
+}
+
+
