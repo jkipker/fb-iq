@@ -1,3 +1,11 @@
 /*IMPORT ALL SASS INTO CSS COMPILER PREP FOR CSS OUTPUT*/
-
 @import "_bootstrap.scss";
+
+//fonts & vars
+@import "custom/_fonts.scss";
+@import "custom/_variables.scss";
+
+// Custom Imports
+@import "custom/_main.scss";
+
+

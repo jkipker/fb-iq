@@ -1,4 +1,27 @@
+//Colors
+$hTagBlue: #4080FF;
+
+
+//Fonts
+$fontBody: Helvetica, sans-serif;
+
+//Freight Fonts
+$iqFontLight: 'FreightLight', Helvetica, sans-serif;
+$iqFontReg: 'FreightReg', Helvetica, sans-serif;
+$iqFontMed: 'FreightMed', Helvetica, sans-serif;
+$iqFontSemi: 'FreightSemi', Helvetica, sans-serif;
+$iqFontBold: 'FreightBold', Helvetica, sans-serif;
+
+
+
+
 body {
+
+  h1, h2{
+    font-size: 72px;
+    font-family: $iqFontLight;
+    color: $hTagBlue;
+  }
 
 }
 
@@ -33,6 +56,8 @@ nav{
     padding-top: 250px;
     p{
       color: white;
+      font-family: $iqFontLight;
+      font-size: 24px;
     }
   }
 }

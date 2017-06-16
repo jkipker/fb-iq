@@ -8,7 +8,8 @@ This project utilizes the following:
 
 Node JS / NPM
 Bower
-Bootstrap-SASS
+Bootstrap
+SASS
 jQuery
 Grunt
 Uglify 
