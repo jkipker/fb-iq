@@ -1,5 +1,6 @@
 //Colors
 $hTagBlue: #4080FF;
+$copyDark: #607D80;
 
 
 //Fonts
@@ -17,10 +18,15 @@ $iqFontBold: 'FreightBold', Helvetica, sans-serif;
 
 body {
 
-  h1, h2{
-    font-size: 72px;
-    font-family: $iqFontLight;
+  h1{
+    font-size: 148px;
+    line-height: 132px;
+    letter-spacing: 0.01em;
     color: $hTagBlue;
+  }
+
+  h1, h2{
+    font-family: $iqFontLight;
   }
 
 }
@@ -41,13 +47,6 @@ nav{
   }
 }
 
-.rotator{
-  .section{
-    background: #e9e9e9 url("../images/header/header-1.jpg") no-repeat top; 
-    background-size: 100%;
-  }
-}
-
 .section{
   padding: 0;
   min-height: 750px;
@@ -58,6 +57,19 @@ nav{
       color: white;
       font-family: $iqFontLight;
       font-size: 24px;
+    }
+  }
+}
+
+.rotator{
+  .section{
+    background: #e9e9e9 url("../images/header/header-1.jpg") no-repeat top; 
+    background-size: 100%;
+
+    .container p{
+      color: $copyDark;
+      font-size: 30px;
+      padding-top: 36px;
     }
   }
 }
@@ -84,9 +96,52 @@ nav{
 
 .container{
   h2{
-    font-size: 72px;
+    font-size: 148px;
+    line-height: 132px;
+    letter-spacing: 0.01em;
     color: white;
-    padding-bottom: 80px;
+  }
+  p{
+    padding-top: 45px;
+  }
+}
+
+//buttons
+.btn-fb{
+    background-color: $copyDark;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0;
+    border: none;
+    font-size: 16px;
+}
+
+
+
+//*Home Page Content Section
+.home-content{
+  padding: 75px 0px;
+
+  h2{
+    color: $hTagBlue;
+    font-size: 100px;
+    letter-spacing: -.03em;
+    line-height: 92px;
+  }
+
+  .col-md-7{
+    margin-top: 45px;
+    padding: 10px 140px;
+    p{
+      padding-top: 0;
+    }
+  }
+  p{
+    color: $copyDark;
+    font-family: $iqFontLight;
+    color: #607D80;
+    font-size: 24px;
+    // padding-top: 0;
   }
 }
 
