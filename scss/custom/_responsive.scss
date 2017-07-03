@@ -70,18 +70,25 @@
       }
     }
 
-
-
-
-
-
-
     .desktop-nav{
       display: none;
     }
 
     .mobile-nav{
       display: block;
+    }
+
+    .mobile-logo{
+      left: 15px;
+      top: 25px;
+      position: fixed;
+      z-index: 10;
+      max-width: 50%;
+      width: 32%;
+
+      img{
+        width: 100%;
+      }
     }
 }
 

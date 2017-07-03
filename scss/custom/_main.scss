@@ -16,6 +16,8 @@ body {
 nav{
   min-height: 55px;
   padding-top: 15px;
+  width: 100%;
+
 
   .navbar-header{
     float: left;
@@ -113,6 +115,10 @@ nav{
 //*Home Page Content Section
 .home-content{
   padding: 75px 0px;
+
+  .row{
+    margin: 0;
+  }
 
   h2{
     color: $hTagBlue;
