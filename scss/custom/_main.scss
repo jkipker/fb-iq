@@ -134,80 +134,8 @@ nav{
     color: #607D80;
     font-size: 24px;
     // padding-top: 0;
+    padding: 1px;
   }
 }
-
-
-
-//MOBILE
-@media only screen and (max-width: 767px) and (min-width: 1px){
-  body{
-    h1{
-      font-size: 46px;
-      line-height: 44px;
-    }
-    .section{
-      padding: 0;
-      min-height: auto;
-
-      .container{
-        padding-top: 0px;
-
-         h2{
-            font-size: 46px;
-            line-height: 42px;
-          }
-          
-          p{
-            color: white;
-            font-family: $iqFontLight;
-            font-size: 18px !important;
-            padding-top: 10px !important;
-          }
-        }
-        .dot-bg-ctnr{
-          display: none;
-        }
-      }
-      .rotator .section .container p{
-        padding-top: 10px;
-      }
-    }
-
-
-
-
-
-
-    .home-content{
-      padding: 25px 0px;
-
-      h2{
-        color: $hTagBlue;
-        font-size: 46px;
-        letter-spacing: -.01em;
-        line-height: auto;
-      }
-
-      .col-md-7{
-        margin-top: 10px;
-        padding: 10px 10px;
-        p{
-          padding-top: 0;
-        }
-      }
-      p{
-        color: $copyDark;
-        font-family: $iqFontLight;
-        color: #607D80;
-        font-size: 24px;
-        // padding-top: 0;
-      }
-    }
-}
-
-
-
-
 
 
