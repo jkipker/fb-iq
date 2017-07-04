@@ -62,15 +62,14 @@
    
 
     <!-- Main section for a primary marketing message or call to action -->
-    <div class="rotator">
-        <div class="section">
-          <div class="container">
-            <h1>Brand<br/>Guidelines</h1>
-            <p>January 2017</p>
-            <!--p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p-->
-          </div>
-        </div>
-    </div>
+    <section class="rotator">
+      <h1><span class="flux">Flux</span> <span class="slider">Slider</span></h1>
+      <div id="slider">
+        <img src="/images/header/header-1.jpg" alt="" />
+        <img src="/images/header/header-2.jpg" alt="" />
+        <img src="/images/header/header-3.jpg" alt="" />
+      </div>
+    </section>
 
     <div class="home-content container">
       <!-- Example row of columns -->
@@ -149,5 +148,46 @@
     <!--script src="scripts/jquery/jquery.min.map"></script-->
     <script src="scripts/bootstrap-sass/bootstrap.min.js"></script>
     <script src="scripts/app.min.js"></script>
+
+    <script src="scripts/flux.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+        if(!flux.browser.supportsTransitions)
+          alert("Flux Slider requires a browser that supports CSS3 transitions");
+        //window.myFlux = new flux.slider('#slider', { transitions: [ 'turn', 'bars3d' ] });  
+        window.f = new flux.slider('#slider', {
+          autoplay: true,
+          pagination: false,
+          transitions: [ 'blocks' ], 
+          controls: true, 
+          delay: 6000,
+        });
+
+      });
+
+      // $().ready(function(){
+      //     window.myFlux = new flux.slider('#slider', {
+      //         autoplay: true,
+      //         pagination: false,
+      //         transitions: ['blocks'],
+      //         width:600,//$(window).width(),
+      //         height:400//$(window).height()
+      //     });
+      //     resizeSlider();
+      // });
+
+      // $(window).resize(resizeSlider);
+
+      // function resizeSlider() {
+      //     var altezzaDiv = $(window).height() - $('header').height() -
+      //         $('footer').height()-$('body').css('margin-top').substring(0,2) - 2; //this will be the right height for the slider
+
+      //     $('#slider').height(altezzaDiv);
+      //     $('.fluxslider').height(altezzaDiv).width($(window).width());
+      //     $('.images').height(altezzaDiv).width($(window).width());
+      //     $('.image1').height(altezzaDiv).width($(window).width());
+      //     $('.image2').height(altezzaDiv).width($(window).width());
+      // }
+    </script>
   </body>
 </html>
